@@ -1,0 +1,67 @@
+.trade-giftcard {
+  width: 85%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  flex-direction: row-reverse;
+}
+
+.trade-giftcard .left-giftcard {
+  flex: 1;
+}
+
+.trade-giftcard h4 {
+  font-size: 38px;
+  width: 480px;
+  line-height: 55px;
+  margin-bottom: 0px;
+}
+
+.trade-giftcard p {
+  color: #667085;
+  width: 440px;
+  line-height: 30px;
+}
+
+.trade-giftcard .right-giftcard {
+  flex: 1;
+}
+
+.trade-giftcard .left-giftcard img {
+  width: 400px;
+}
+
+@media (max-width: 1000px) {
+  .trade-giftcard {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    align-items: normal;
+    margin-right: auto;
+    width: 100%;
+    gap: 0px;
+    padding-top: 40px;
+  }
+
+  .trade-giftcard h4 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .trade-giftcard p {
+    font-size: 16px;
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .trade-giftcard .left-giftcard img {
+    width: 100%;
+  }
+}

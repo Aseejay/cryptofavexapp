@@ -1,0 +1,54 @@
+.download-app {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #0000001a;
+  padding: 5px 20px;
+  padding-right: 35px;
+  padding-left: 6px;
+  border-radius: 40px;
+  border: 1px solid #ffffff66;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.download-app .download-desc h4 {
+  font-size: 16px;
+  width: 100%;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.download-app .download-desc p {
+  font-size: 12px;
+  width: 100%;
+  padding-top: 0px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 1000px) {
+  .download-app svg {
+    width: 50px;
+  }
+
+  .download-app {
+    padding: 0px;
+    padding-left: 8px;
+    padding-right: 10px;
+    gap: 10px;
+    border-radius: 100px;
+    width: 100%;
+  }
+
+  .download-app .download-desc p {
+    font-size: 12px;
+  }
+  .download-app .download-desc h4 {
+    font-size: 15px;
+  }
+}

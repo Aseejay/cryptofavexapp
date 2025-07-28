@@ -1,0 +1,93 @@
+.download-favex {
+  background: #1d6a4b;
+  border-radius: 20px;
+  color: white;
+  background-image: url("../src/assets/2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 60px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  border-radius: 30px;
+  gap: 50px;
+}
+
+.download-favex .download-favex-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+
+.download-favex .download-favex-left h4.header {
+  font-size: 40px;
+  line-height: 55px;
+  width: 320px;
+  margin-bottom: 0px;
+}
+
+.download-favex .download-favex-left p.desc {
+  width: 400px;
+  line-height: 28px;
+  margin-bottom: 0px;
+}
+
+.download-favex .download-favex-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+}
+
+.download-favex .download-favex-right img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+}
+
+.download-group {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .download-favex {
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0px;
+    gap: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+
+  .download-favex .download-favex-left h4.header {
+    font-size: 40px;
+    line-height: 55px;
+    width: 100%;
+  }
+
+  .download-favex .download-favex-left p.desc {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .download-favex .download-favex-right img {
+    width: 100%;
+    min-width: 100%;
+  }
+}

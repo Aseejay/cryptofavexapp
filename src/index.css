@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+.bg-green {
+  background: #1d6a4b;
+  background-image: url("../src/assets/2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #ebf8ee;
+  padding: 30px 0;
+}
+
+.scroll-track {
+  display: flex;
+  gap: 100px;
+  animation: scroll-left 8s linear infinite;
+}
+
+.scroll-track img {
+  width: 80px;
+}
+
+.scroll-logo {
+  height: 40px;
+  flex-shrink: 0;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 1000px) {
+  .bg-green {
+  }
+}
