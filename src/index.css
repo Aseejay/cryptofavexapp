@@ -45,7 +45,17 @@ body {
   }
 }
 
+.copyright {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 30px 0px;
+  margin: 0 auto;
+}
+.copyright .svg {
+  width: 100%;
+}
 @media (max-width: 1000px) {
-  .bg-green {
+  .copyright {
+    display: none;
   }
 }

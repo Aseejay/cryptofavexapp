@@ -63,16 +63,7 @@ export const Faq = () => {
           transition={{ duration: 0.6, delay: index * 0.1 }}
         >
           <div>
-            <div
-              className="question-header"
-              onClick={() => update(index)}
-              style={{
-                cursor: "pointer",
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-              }}
-            >
+            <div className="question-header" onClick={() => update(index)}>
               <p>{data.questions}</p>
               <Add />
             </div>

@@ -16,12 +16,18 @@
   border-bottom: 1px solid whitesmoke;
   cursor: pointer;
   margin-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 .faqs .question p {
   display: flex;
+}
+
+.faqs .question-header {
+  display: flex;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  gap: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -38,7 +44,7 @@
 
   .faqs .question p {
     text-align: left;
-    justify-content: space-between;
+
     width: 100%;
   }
 }

@@ -6,6 +6,7 @@ import { Header } from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import { How } from "./components/How";
 import Scroll from "./components/Scroll";
+import { Copyright } from "./icon";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       <Faq />
       <Download />
       <Footer />
+      <div className="copyright">
+        <Copyright />
+      </div>
     </>
   );
 }
