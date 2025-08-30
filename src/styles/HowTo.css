@@ -1,0 +1,79 @@
+.how {
+  text-align: center;
+  padding: 60px;
+}
+
+.how h4 {
+  font-size: 34px;
+  margin-bottom: 0px;
+}
+
+.how-works {
+  display: flex;
+  text-align: left;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.how-works .how-card {
+  background-color: #fafafa;
+  padding: 30px 30px 50px;
+  border-radius: 15px;
+  width: 530px;
+}
+.how-works h4 {
+  font-size: 20px;
+  color: #1d6a4b;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.how-works p {
+  color: #101828;
+  font-weight: 300;
+  width: 90%;
+  line-height: 26px;
+  margin-left: 0px;
+}
+
+@media (max-width: 1000px) {
+  .how {
+    padding: 20px;
+    box-sizing: border-box;
+    padding-top: 50px;
+  }
+
+  .how h4 {
+    font-size: 3dvh;
+  }
+  .how-works {
+    flex-direction: column;
+    box-sizing: content-box;
+    text-align: center;
+  }
+
+  .how-works h4 {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .how p {
+    line-height: 28px;
+  }
+
+  .how-works .how-card {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+  }
+  .how-works p {
+    width: 100%;
+    line-height: 28px;
+  }
+}

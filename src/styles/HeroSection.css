@@ -6,7 +6,6 @@
   color: white;
   display: flex;
   gap: 40px;
-  align-items: stretch;
 }
 
 .hero-section .hero-left {
@@ -19,11 +18,12 @@
 
 .hero-section .hero-left h4.header {
   margin-bottom: 10px;
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 50px;
+  line-height: 70px;
   max-width: 600px;
   margin: 0 auto;
   text-align: left;
+  margin-top: 30px;
 }
 
 .hero-section .hero-left p.desc {
@@ -44,7 +44,7 @@
 
 .hero-section .hero-right img {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
   object-fit: contain;
   display: block;
@@ -55,16 +55,55 @@
   display: flex;
   gap: 20px;
 
+  justify-content: left;
+}
+
+.hero-section.rate {
+  justify-content: center;
+  padding: 100px 0px;
+}
+
+.hero-section.rate .hero-left h4.header {
+  margin-bottom: 10px;
+  font-size: 60px;
+  line-height: 70px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hero-section.giftcard .hero-left h4.header {
+  margin-bottom: 10px;
+  font-size: 80px;
+  line-height: 90px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hero-section.giftcard .download-group {
+  display: flex;
+  gap: 20px;
+
   padding-top: 20px;
 }
 
+.hero-section.reward .hero-left h4.header {
+  margin-bottom: 10px;
+  font-size: 70px;
+  line-height: 80px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
 @media (max-width: 1000px) {
   .hero-section {
     flex-direction: column;
     gap: 0px;
     padding: 20px;
     padding-bottom: 0px;
-    padding-top: 120px;
+    padding-top: 90px;
     width: 100%;
     box-sizing: border-box;
   }
@@ -74,7 +113,7 @@
   }
 
   .hero-section .hero-left h4.header {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     line-height: 60px;
   }
@@ -83,12 +122,51 @@
     text-align: center;
   }
 
-  .hero-section .download-group {
-    gap: 10px;
+  .hero-section .download-group,
+  .hero-section.hero-section.giftcard .download-group {
+    gap: 30px;
+    justify-content: center;
   }
 
   .hero-section .hero-right img {
     width: 100%;
     max-width: 100%;
+  }
+
+  .hero-section.rate .hero-left h4.header {
+    font-size: 40px;
+    text-align: center;
+    line-height: 55px;
+  }
+
+  .hero-section.rate {
+    flex-direction: column;
+    gap: 0px;
+    padding: 20px;
+    padding-top: 90px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .hero-section.giftcard .hero-left h4.header {
+    font-size: 45px;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .hero-section.reward .hero-left h4.header {
+    font-size: 45px;
+    text-align: center;
+    line-height: 60px;
+    padding-top: 50px;
+  }
+  .hero-section.giftcard {
+    flex-direction: column;
+    gap: 0px;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 140px;
+    width: 100%;
+    box-sizing: border-box;
   }
 }

@@ -1,13 +1,13 @@
 body {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+
   font-family: inter;
 }
 
 .bg-green {
   background: #1d6a4b;
-  background-image: url("../src/assets/2.png");
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,5 +57,10 @@ body {
 @media (max-width: 1000px) {
   .copyright {
     display: none;
+  }
+
+  body,
+  html {
+    overflow-x: visible;
   }
 }

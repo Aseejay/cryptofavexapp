@@ -1,5 +1,5 @@
 import "../styles/HeroSection.css";
-import heroImg from "../assets/IMG_4167 1.png";
+import heroImg from "../assets/Rectangle.png";
 import { AppleStore } from "./AppleStore";
 import GoogleStore from "./GoogleStore";
 import { motion } from "framer-motion";
@@ -22,8 +22,19 @@ export const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            How to trade Crypto
+            The All-in-One Platform for Crypto Trading
           </motion.h4>
+
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="desc"
+          >
+            Favex makes it easy to turn your crypto into cash quickly and
+            effortlessly no stress, no delays, just fast payouts when you need
+            them most.
+          </motion.p>
 
           <motion.div
             className="download-group"
@@ -47,11 +58,7 @@ export const HeroSection = () => {
             delay: 0.5,
           }}
         >
-          <img
-            src={heroImg}
-            alt="Hero"
-            style={{ maxWidth: "100%", borderRadius: "1rem" }}
-          />
+          <img src={heroImg} alt="Hero" />
         </motion.div>
       </div>
     </div>

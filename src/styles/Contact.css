@@ -1,0 +1,135 @@
+.contact {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 100px;
+  padding-top: 100px;
+  align-items: start;
+}
+
+.contact .contact-left {
+  flex: 1;
+}
+
+.contact-left h4 {
+  font-size: 30px;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: #1d6a4b;
+}
+
+.contact-left p {
+  color: #667085;
+  width: 90%;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.contact-left .contact-card {
+  background: #fafafa;
+  width: 90%;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-left .contact-card p {
+  margin: 0px;
+  color: #151b1f;
+  font-size: 13px;
+}
+
+.contact-left .contact-card a {
+  text-decoration: none;
+  color: #151b1f;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.contact .contact-right {
+  flex: 1;
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.contact-right p {
+  line-height: 25px;
+}
+
+.contact-right label {
+  font-size: 15px;
+}
+
+.contact-right input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #f2f2f7;
+  background: white;
+  border-radius: 8px;
+  font-family: inter;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.contact-right textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #f2f2f7;
+  background: white;
+  border-radius: 8px;
+  font-family: inter;
+  height: 120px;
+  font-size: 14px;
+}
+
+.contact-right button {
+  background: #1d6a4b;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    padding-top: 80px;
+    gap: 70px;
+  }
+
+  .contact .contact-right {
+    padding: 20px;
+  }
+  .contact-right p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .contact-left h4 {
+    font-size: 28px;
+  }
+  .contact-left p {
+    line-height: 30px;
+  }
+}

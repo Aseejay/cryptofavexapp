@@ -6,21 +6,39 @@ import { motion, AnimatePresence } from "framer-motion";
 export const Faq = () => {
   const [questions, setQuestions] = useState([
     {
-      questions: "How do I trade on Favex App?",
+      questions: "How do I trade crypto on Favex?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, nunc at fermentum luctus, nunc justo sagittis elit, vel scelerisque purus erat non velit. Nulla facilisi.",
+        "To trade crypto on Favex, log into the app, go to the 'Trade' section, choose the cryptocurrency you want to buy or sell, enter the amount, and confirm the transaction. The system will process it instantly.",
       show: false,
     },
     {
-      questions: "How do I receive payments?",
+      questions: "How long does it take to complete a crypto trade?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, nunc at fermentum luctus, nunc justo sagittis elit, vel scelerisque purus erat non velit. Nulla facilisi.",
+        "Crypto trades on Favex are usually completed within 5–10 minutes. In rare cases, network congestion or additional verification may cause slight delays, but we always aim for a fast and seamless experience.",
       show: false,
     },
     {
-      questions: "Is trading on Favex secure?",
+      questions: "Is it safe to trade crypto on Favex?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, nunc at fermentum luctus, nunc justo sagittis elit, vel scelerisque purus erat non velit. Nulla facilisi.",
+        "Yes, Favex uses bank-level security and encryption to protect all transactions. Your wallet addresses, funds, and personal data are secured, and our support team is always available if you need help.",
+      show: false,
+    },
+    {
+      questions: "What cryptocurrencies can I trade on Favex?",
+      answer:
+        "Favex supports popular cryptocurrencies including Bitcoin, Ethereum, USDT, BNB, and more. You can view the full list of supported assets directly in the app.",
+      show: false,
+    },
+    {
+      questions: "What happens if my crypto transaction fails?",
+      answer:
+        "If a transaction fails, it’s usually due to network issues, insufficient balance, or an incorrect wallet address. Our support team will notify you and guide you on how to resolve the issue quickly.",
+      show: false,
+    },
+    {
+      questions: "Can I track the status of my crypto trade?",
+      answer:
+        "Absolutely. Once you place a crypto trade, you can monitor its progress in real-time within the Favex app under the 'Transactions' or 'Trade History' section.",
       show: false,
     },
   ]);

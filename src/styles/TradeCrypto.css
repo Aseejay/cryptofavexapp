@@ -1,5 +1,6 @@
 .trade-crypto {
   width: 85%;
+
   margin-left: auto;
   display: flex;
   align-items: center;
@@ -10,14 +11,14 @@
   flex: 1;
 }
 
-.trade-crypto h4 {
-  font-size: 38px;
-  width: 480px;
+.trade-crypto h4.header {
+  font-size: 42px;
+  width: 470px;
   line-height: 55px;
   margin-bottom: 0px;
 }
 
-.trade-crypto p {
+.trade-crypto p.desc {
   color: #667085;
   width: 440px;
   line-height: 30px;
@@ -31,19 +32,25 @@
   width: 400px;
 }
 
+.trade-crypto .download-group {
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+}
+
 @media (max-width: 1000px) {
   .trade-crypto {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: normal;
     margin-right: auto;
     width: 100%;
-    gap: 0px;
-    padding-top: 40px;
+    gap: 50px;
+    padding-top: 0px;
   }
 
-  .trade-crypto h4 {
+  .trade-crypto h4.header {
     font-size: 32px;
     width: 100%;
     text-align: center;
@@ -52,7 +59,7 @@
     margin: 0 auto;
   }
 
-  .trade-crypto p {
+  .trade-crypto p.desc {
     font-size: 16px;
     width: 320px;
     margin: 0 auto;
@@ -61,6 +68,12 @@
   }
 
   .trade-crypto .left-crypto img {
-    width: 100%;
+    width: 80%;
+  }
+
+  .trade-crypto .download-group {
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
   }
 }

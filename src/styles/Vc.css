@@ -1,0 +1,97 @@
+.virtual-card {
+  text-align: center;
+  padding: 40px 0px;
+  padding-top: 80px;
+}
+
+.virtual-card h4 {
+  font-size: 34px;
+  width: 550px;
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+.vc-group {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+.virtual-card .vc-left,
+.vc-right {
+  background: black;
+  color: white;
+  max-width: 380px;
+  height: 530px;
+  padding: 30px;
+  border-radius: 30px;
+  padding-left: 50px;
+}
+
+.virtual-card .vc-left h4,
+.vc-right h4 {
+  margin-bottom: 0px;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.virtual-card .vc-left p,
+.vc-right p {
+  line-height: 30px;
+  width: 90%;
+}
+
+.virtual-card .vc-left {
+  background: #1d6a4b;
+  /* background-image: url("../../src//assets/bg-green.png"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.virtual-card .vc-right {
+  /* background-image: url("../../src/assets/bg.png"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1000px) {
+  .vc-group {
+    flex-direction: column;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+
+  .virtual-card {
+    box-sizing: border-box;
+  }
+  .virtual-card h4 {
+    width: 90%;
+  }
+  .virtual-card p {
+    line-height: 30px;
+  }
+
+  .virtual-card .vc-left,
+  .vc-right {
+    width: 100%;
+    height: 470px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .virtual-card .vc-left h4,
+  .vc-right h4 {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .virtual-card .vc-left p,
+  .vc-right p {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

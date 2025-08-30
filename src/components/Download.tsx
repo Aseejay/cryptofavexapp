@@ -42,6 +42,7 @@ export const Download = () => {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" as const }}
         >
           <AppleStore />
+
           <GoogleStore />
         </motion.div>
       </motion.div>

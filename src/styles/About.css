@@ -1,0 +1,40 @@
+.about-us {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.about-us .left-about {
+  flex: 1;
+}
+
+.about-us .right-about h4 {
+  margin: 0px;
+  font-size: 34px;
+}
+
+.about-us .right-about p {
+  padding-bottom: 10px;
+  line-height: 27px;
+  font-size: 15px;
+  color: #667085;
+}
+.about-us .right-about {
+  flex: 1;
+}
+.about-us img {
+  width: 450px;
+}
+
+@media (max-width: 1000px) {
+  .about-us {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .about-us img {
+    width: 100%;
+  }
+}

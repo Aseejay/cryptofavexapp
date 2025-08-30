@@ -31,6 +31,10 @@
   margin-bottom: 4px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
 @media (max-width: 1000px) {
   .download-app svg {
     width: 50px;

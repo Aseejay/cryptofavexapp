@@ -58,6 +58,8 @@
   display: flex;
   gap: 20px;
   padding-bottom: 20px;
+
+  justify-content: center;
 }
 
 @media (max-width: 1000px) {
@@ -78,6 +80,10 @@
     font-size: 40px;
     line-height: 55px;
     width: 100%;
+  }
+
+  .download-favex .download-group {
+    gap: 30px;
   }
 
   .download-favex .download-favex-left p.desc {
