@@ -30,8 +30,8 @@ export const TradeGiftCard = () => {
           Trade Crypto Instantly Simple, Fast and Secure
         </h4>
         <p className="desc">
-          Trade crypto, pay bills, buy gift cards and create virtual cards all
-          in one app. Instant, secure and built for your financial freedom.
+          Trade crypto, pay bills and create virtual cards all in one app.
+          Instant, secure and built for your financial freedom.
         </p>
 
         <div className="download-group">
