@@ -14,6 +14,9 @@ import { Contact } from "./components/Contact/Contact";
 import { Faqs } from "./components/Faqs/Faqs";
 import { Rate } from "./components/Rate/Rate";
 import { Copyright } from "./icon";
+import { Terms } from "./components/Terms/Terms";
+import { Privacy } from "./components/PrivacyPolicy/PrivacyPolicy";
+import { Aml } from "./components/Aml/Aml";
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/Faqs" element={<Faqs />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/aml-privacy" element={<Aml />} />
       </Routes>
 
       <Download />

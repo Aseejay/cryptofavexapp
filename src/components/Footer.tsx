@@ -112,9 +112,21 @@ export const Footer = () => {
                 { name: "About Us", url: "/about" },
                 { name: "FAQs", url: "/faqs" },
                 { name: "Contact us", url: "/contact" },
+                // {
+                //   name: "support@favexapp.com",
+                //   url: "mailto:support@favexapp.com",
+                // },
                 {
-                  name: "support@favexapp.com",
-                  url: "mailto:support@favexapp.com",
+                  name: "Terms",
+                  url: "/terms",
+                },
+                {
+                  name: "Privacy Policy",
+                  url: "/privacy",
+                },
+                {
+                  name: "Aml Policy",
+                  url: "/aml-privacy",
                 },
               ],
             },

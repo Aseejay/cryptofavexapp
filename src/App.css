@@ -103,6 +103,43 @@
   margin: 10px 0px;
 }
 
+.company-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 0px;
+  padding-bottom: 50px;
+}
+.company-header {
+  padding-top: 30px;
+}
+
+.company-container .company-header p {
+  margin-top: 6px;
+  color: #16813b;
+}
+.company-container h4 {
+  margin: 0px;
+  font-size: 22px;
+}
+.company-info {
+  padding-top: 30px;
+}
+
+.company-info p {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.company-container ul {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+}
+
+.company-container ul li {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
 @media (max-width: 1000px) {
   .testimonial-section {
     padding: 20px;
