@@ -73,6 +73,23 @@
   gap: 10px;
 }
 
+.footer-gov {
+  gap: 10px;
+  display: flex;
+  width: 100px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer-gov p {
+  padding: 0px;
+  margin: 0px;
+}
+.footer-gov img {
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+}
 @media (max-width: 1000px) {
   .footer-group .footers {
     flex-direction: column-reverse;
@@ -98,6 +115,13 @@
   .footer-group .footer-top img {
     max-width: 150px;
     height: 30px;
+    padding-left: 30px;
+  }
+  .footer-gov {
+    flex-direction: column-reverse;
+    justify-content: left;
+  }
+  .footer-gov p {
     padding-left: 30px;
   }
 }

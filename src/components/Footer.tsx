@@ -54,7 +54,10 @@ export const Footer = () => {
             <Mobile />
             +234 (0) 8148736835
           </a>
-
+          <div className="footer-gov">
+            <p>RC6869880</p>
+            <img src="https://www.favexapp.com/cac_logo.png" alt="" />
+          </div>
           <div className="socials">
             <a
               href="https://facebook.com/favex"
@@ -125,7 +128,7 @@ export const Footer = () => {
                   url: "/privacy",
                 },
                 {
-                  name: "Aml Policy",
+                  name: "AML Policy",
                   url: "/aml-privacy",
                 },
               ],
