@@ -28,9 +28,27 @@ body {
 }
 
 .scroll-track img {
-  width: 80px;
+  width: 50px;
 }
 
+.scroll-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.scroll-card h4 {
+  margin: 0px;
+  color: #101828;
+  padding: 0px;
+  margin-bottom: 2px;
+}
+
+.scroll-card p {
+  margin: 0px;
+  font-size: 13px;
+  color: #667085;
+}
 .scroll-logo {
   height: 40px;
   flex-shrink: 0;

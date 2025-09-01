@@ -1,20 +1,33 @@
-import amazon from "../assets/amazon.png";
-import ebay from "../assets/ebay.png";
-import nike from "../assets/nike.png";
-import sephora from "../assets/sephora.png";
-import macys from "../assets/macys.png";
-import visa from "../assets/visa.png";
-import walmart from "../assets/walmart.png";
-import steam from "../assets/steam.png";
+import amazon from "../assets/btc.png";
+import ebay from "../assets/eth.png";
+import nike from "../assets/bnb.png";
+import sephora from "../assets/usdt.png";
+import macys from "../assets/usdc.png";
+import visa from "../assets/sol.png";
+import walmart from "../assets/trx.png";
 
-const images = [amazon, ebay, nike, sephora, macys, visa, walmart, steam];
+const coins = [
+  { img: amazon, header: "BTC", name: "Bitcoin" },
+  { img: ebay, header: "ETH", name: "Ethereum" },
+  { img: walmart, header: "TRX", name: "Tron" },
+  { img: visa, header: "SOL", name: "Solana" },
+  { img: sephora, header: "USDT", name: "Tether" },
+  { img: macys, header: "USDC", name: "Dollar" },
+  { img: nike, header: "BNB", name: "BNB" },
+];
 
 const Scroll = () => {
   return (
     <div className="scroll-container">
       <div className="scroll-track">
-        {[...images, ...images].map((img, index) => (
-          <img key={index} src={img} alt="" className="scroll-img" />
+        {[...coins, ...coins].map((coin, index) => (
+          <div key={index} className="scroll-card">
+            <img src={coin.img} alt={coin.name} className="scroll-img" />
+            <div>
+              <h4>{coin.header}</h4>
+              <p>{coin.name}</p>
+            </div>
+          </div>
         ))}
       </div>
     </div>
