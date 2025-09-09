@@ -25,19 +25,6 @@ export const HeroSectionAbout = () => {
           >
             About us
           </motion.h4>
-
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="desc"
-            style={{ textAlign: "center", margin: "0 auto" }}
-          >
-            Trade Gift Card easy and fast
-          </motion.p>
-          <br />
-          <br />
-          <br />
         </motion.div>
       </div>
     </div>
