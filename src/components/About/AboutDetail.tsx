@@ -28,9 +28,8 @@ export const AboutDetail = () => {
           individuals manage and trade digital assets. Established in February
           2024, Favex has quickly emerged as a trusted name in the industry,
           committed to simplicity, security, and innovation. Our platform offers
-          a seamless experience for buying, selling, and trading gift cards,
-          ensuring that our users can conduct their transactions with ease and
-          confidence.
+          a seamless experience for buying and selling, ensuring that our users
+          can conduct their transactions with ease and confidence.
         </p>
 
         <p className="desc">
@@ -38,15 +37,15 @@ export const AboutDetail = () => {
           digital asset management. That's why we have designed our platform to
           be user-friendly and accessible, catering to both beginners and
           experienced traders. Our intuitive interface allows users to navigate
-          the world of cryptocurrencies and gift cards effortlessly, making
-          trading more straightforward and less intimidating.
+          the world of cryptocurrencies, making trading more straightforward and
+          less intimidating.
         </p>
 
         <p className="desc">
-          Favex is here to make gift card trading easier than ever before.
-          Whether you're looking to diversify your investment portfolio, redeem
-          gift cards. Favex is your trusted partner. Join us as we pave the way
-          for a more accessible and secure future in digital asset trading.
+          Favex is here to make crypto trading easier than ever before. Whether
+          you're looking to diversify your investment portfolio, redeem crypto.
+          Favex is your trusted partner. Join us as we pave the way for a more
+          accessible and secure future in digital asset trading.
         </p>
       </motion.div>
     </div>

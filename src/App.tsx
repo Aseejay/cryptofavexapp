@@ -32,11 +32,11 @@ function App() {
         <Route path="/virtualcard" element={<VC />} />
         <Route path="/reward" element={<Reward />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact-us" element={<Contact />} />
         <Route path="/Faqs" element={<Faqs />} />
         <Route path="/terms" element={<Terms />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/aml-privacy" element={<Aml />} />
+        <Route path="/privacy-policy" element={<Privacy />} />
+        <Route path="/aml-policy" element={<Aml />} />
       </Routes>
 
       <Download />

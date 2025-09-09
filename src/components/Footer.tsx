@@ -114,7 +114,7 @@ export const Footer = () => {
               links: [
                 { name: "About Us", url: "/about" },
                 { name: "FAQs", url: "/faqs" },
-                { name: "Contact us", url: "/contact" },
+                { name: "Contact us", url: "/contact-us" },
                 // {
                 //   name: "support@favexapp.com",
                 //   url: "mailto:support@favexapp.com",
@@ -125,11 +125,11 @@ export const Footer = () => {
                 },
                 {
                   name: "Privacy Policy",
-                  url: "/privacy",
+                  url: "/privacy-policy",
                 },
                 {
                   name: "AML Policy",
-                  url: "/aml-privacy",
+                  url: "/aml-policy",
                 },
               ],
             },

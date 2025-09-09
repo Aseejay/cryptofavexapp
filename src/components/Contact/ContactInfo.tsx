@@ -6,8 +6,8 @@ export const ContactInfo = () => {
         <div className="contact-left">
           <h4>Let's stay connected</h4>
           <p>
-            It's never been easier to get in touch with Kdctrade. Call us, use
-            our live chat widget or email and we'll get back to you as soon as
+            It's never been easier to get in touch with favex. Call us, use our
+            live chat widget or email and we'll get back to you as soon as
             possible!
           </p>
           <div className="contact-card">

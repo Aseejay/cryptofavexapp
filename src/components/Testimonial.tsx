@@ -48,21 +48,21 @@ export const Testimonials: React.FC = () => {
     {
       name: "Olumade Johnson",
       message:
-        "Favex is hands down the best app I’ve ever used for exchange. The interface is clean, intuitive, and easy to navigate—even for someone who isn’t tech-savvy. From login to transaction, it takes less than 2 minutes. The real-time exchange rates are always better than banks or other platforms. Everything just works.",
+        "Favex is hands down the best app I’ve ever used for exchange. The interface is clean, intuitive, and easy to navigate, even for someone who isn’t tech-savvy. From login to transaction, it takes less than 2 minutes. The real-time exchange rates are always better than banks or other platforms. Everything just works.",
       role: "User, Favex",
       image: avatar,
     },
     {
       name: "Akinbode Seyifunmi",
       message:
-        "What truly impressed me was the speed. I’ve made transfers in under two minutes, and the notifications at every step give complete peace of mind. It’s incredibly fast and reliable—perfect for frequent traders. Transactions are smooth, consistent, and the platform delivers exactly what it promises.",
+        "What truly impressed me was the speed. I’ve made transfers in under two minutes, and the notifications at every step give complete peace of mind. It’s incredibly fast and reliable - perfect for frequent traders. Transactions are smooth, consistent, and the platform delivers exactly what it promises.",
       role: "User, Favex",
       image: avatar,
     },
     {
       name: "Ebuka Samuel",
       message:
-        "Favex customer support is absolutely top-tier. I had a small issue during verification and reached out—they responded within minutes, resolved the issue, and followed up the next day to ensure everything worked perfectly. That kind of care and accountability is rare in today’s platforms.",
+        "Favex customer support is absolutely top-tier. I had a small issue during verification and reached out, they responded within minutes, resolved the issue, and followed up the next day to ensure everything worked perfectly. That kind of care and accountability is rare in today’s platforms.",
       role: "User, Favex",
       image: avatar,
     },
@@ -76,56 +76,56 @@ export const Testimonials: React.FC = () => {
     {
       name: "Tolu Adebayo",
       message:
-        "Favex isn’t just an app—it’s a game changer. It’s secure, fast, and incredibly user-friendly. The team behind it truly cares, and it shows. I’ve recommended Favex to family, friends, and colleagues. We all agree—it’s the best exchange app we’ve ever used. Everything just works seamlessly.",
+        "Favex isn’t just an app, it’s a game changer. It’s secure, fast, and incredibly user-friendly. The team behind it truly cares, and it shows. I’ve recommended Favex to family, friends, and colleagues. We all agree, it’s the best exchange app we’ve ever used. Everything just works seamlessly.",
       role: "User, Favex",
       image: avatar,
     },
     {
       name: "Aminu Musa",
       message:
-        "I’ve recommended Favex to everyone I know—family, friends, and coworkers. It’s secure, fast, and simply works the way a financial app should—but better. From the user experience to the real-time transactions and support, it’s clearly built with care. If you want reliability, this is it.",
+        "I’ve recommended Favex to everyone I know, family, friends, and coworkers. It’s secure, fast, and simply works the way a financial app should, but better. From the user experience to the real-time transactions and support, it’s clearly built with care. If you want reliability, this is it.",
       role: "User, Favex",
       image: avatar,
     },
     {
       name: "Fatima Olayemi",
       message:
-        "Seamless experience from start to finish. I’ve used many platforms for currency exchange, but Favex is by far the most efficient. I can complete a transaction in under two minutes with full confidence in the rate I’m getting. It’s fast, secure, and reliable—exactly what I need every time.",
+        "Seamless experience from start to finish. I’ve used many platforms for currency exchange, but Favex is by far the most efficient. I can complete a transaction in under two minutes with full confidence in the rate I’m getting. It’s fast, secure, and reliable - exactly what I need every time.",
       role: "User, Favex",
       image: avatar,
     },
     {
       name: "Ibrahim Nwachukwu",
       message:
-        "It’s the little things that make Favex stand out. The design is slick, but beyond that, everything just works. No glitches, no guesswork—just a smooth, secure transaction every time. I trust Favex with every transfer and recommend it to anyone looking for a no-stress experience.",
+        "It’s the little things that make Favex stand out. The design is slick, but beyond that, everything just works. No glitches, no guesswork, just a smooth, secure transaction every time. I trust Favex with every transfer and recommend it to anyone looking for a no-stress experience.",
       role: "User, Favex",
       image: avatar,
     },
     {
       name: "Adaeze Onuoha",
       message:
-        "Favex has completely changed how I handle international payments. The speed is unmatched, and I get notified at every stage. It gives me total peace of mind. I used to dread currency transfers—now it’s the easiest part of my day. Smooth, secure, and built for real-world use.",
+        "Favex has completely changed how I handle international payments. The speed is unmatched, and I get notified at every stage. It gives me total peace of mind. I used to dread currency transfers, now it’s the easiest part of my day. Smooth, secure, and built for real-world use.",
       role: "User, Favex",
       image: avatar,
     },
     {
       name: "Chika Okonkwo",
       message:
-        "Incredible app, even better support team. I had a technical issue during setup, and within 10 minutes, the team not only fixed it but explained what happened. That kind of accountability is rare these days. Favex isn’t just a product—it’s a well-supported experience.",
+        "Incredible app, even better support team. I had a technical issue during setup, and within 10 minutes, the team not only fixed it but explained what happened. That kind of accountability is rare these days. Favex isn’t just a product, it’s a well-supported experience.",
       role: "User, Favex",
       image: avatar,
     },
     {
       name: "Uche Madueke",
       message:
-        "I’ve used Favex for both personal and business transactions, and it’s never let me down. The transparency is refreshing—no hidden fees or surprise rate changes. It’s become my go-to app for anything exchange-related. It’s consistent, fast, and always gets the job done right.",
+        "I’ve used Favex for both personal and business transactions, and it’s never let me down. The transparency is refreshing, no hidden fees or surprise rate changes. It’s become my go-to app for anything exchange-related. It’s consistent, fast, and always gets the job done right.",
       role: "User, Favex",
       image: avatar,
     },
     {
       name: "Zainab Lawal",
       message:
-        "Favex delivers exactly what it promises—speed, security, and simplicity. As someone who values efficiency, this app is a dream. Transfers are lightning-fast, the rates are always competitive, and the whole process just works. Favex is now my default for all things exchange.",
+        "Favex delivers exactly what it promises, speed, security, and simplicity. As someone who values efficiency, this app is a dream. Transfers are lightning-fast, the rates are always competitive, and the whole process just works. Favex is now my default for all things exchange.",
       role: "User, Favex",
       image: avatar,
     },

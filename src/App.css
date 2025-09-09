@@ -127,8 +127,9 @@
 }
 
 .company-info p {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 30px;
+  color: #667085;
 }
 
 .company-container ul {
@@ -140,6 +141,11 @@
 .company-container ul li {
   font-size: 17px;
   margin-bottom: 20px;
+}
+
+.company-container img {
+  width: 140px;
+  padding-bottom: 20px;
 }
 @media (max-width: 1000px) {
   .testimonial-section {
@@ -166,6 +172,6 @@
     padding: 40px 0; /* Remove side padding on container */
   }
   .company-container {
-    width: 90%;
+    width: 87%;
   }
 }

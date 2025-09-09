@@ -16,8 +16,8 @@ export const Vision = () => {
           <p>
             At Favex, our mission is to empower individuals through seamless and
             secure financial solutions. We strive to simplify the complexities
-            of gift cards, ensuring everyone can participate in the digital
-            economy with confidence.
+            of crypto, ensuring everyone can participate in the digital economy
+            with confidence.
           </p>
         </motion.div>
 
