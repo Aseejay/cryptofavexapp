@@ -13,7 +13,7 @@ declare global {
 const navLinks = [
   { label: "Products", url: "/" },
   { label: "About", url: "/about" },
-  { label: "Contact us", url: "/contact" },
+  { label: "Contact us", url: "/contact-us" },
   { label: "Faqs", url: "/faqs" },
   { label: "Get App", url: "https://favex.onelink.me/SAov/favexapp" },
 ];
